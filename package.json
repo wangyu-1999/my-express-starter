@@ -1,23 +1,13 @@
 {
   "name": "my-express-starter",
   "version": "1.0.0",
-  "description": "",
   "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wangyu-1999/my-express-starter.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wangyu-1999/my-express-starter/issues"
-  },
-  "homepage": "https://github.com/wangyu-1999/my-express-starter#readme",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.1.0",
