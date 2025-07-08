@@ -17,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/wangyu-1999/my-express-starter/issues"
   },
-  "homepage": "https://github.com/wangyu-1999/my-express-starter#readme"
+  "homepage": "https://github.com/wangyu-1999/my-express-starter#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
