@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
     "lint": "eslint . --ext js",
     "format": "prettier --write ."
   },
