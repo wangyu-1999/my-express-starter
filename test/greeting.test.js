@@ -1,4 +1,6 @@
 import supertest from 'supertest';
+import { describe, it, expect } from 'vitest';
+
 import app from '../src/app.js';
 
 const api = supertest(app);

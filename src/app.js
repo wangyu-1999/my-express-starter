@@ -1,5 +1,6 @@
-import express from 'express';
 import cors from 'cors';
+import express from 'express';
+
 import unknownEndpoint from './middleware/unknown-endpoint.js';
 import greetingRoutes from './routes/greeting.routes.js';
 
