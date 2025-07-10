@@ -1,6 +1,7 @@
 import cors from 'cors';
 import express from 'express';
 
+import postgresErrorHandler from './middleware/postgres-error-handler.js';
 import unknownEndpoint from './middleware/unknown-endpoint.js';
 import apiRoutes from './routes/api.routes.js';
 
@@ -15,5 +16,6 @@ app.get('/', (_req, res) => {
 app.use('/api', apiRoutes);
 
 app.use(unknownEndpoint);
+app.use(postgresErrorHandler);
 
 export default app;
