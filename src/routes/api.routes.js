@@ -4,6 +4,6 @@ import greetingRoutes from './greeting.routes.js';
 
 const router = Router();
 
-router.use('/greeting', greetingRoutes);
+router.use('/', greetingRoutes);
 
 export default router;
